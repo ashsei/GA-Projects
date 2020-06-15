@@ -5,13 +5,13 @@ $(() => {
     // Play Function
     $('.Empty').on('click', (event) => {
         if(player % 2 == 0) {
-            if(!$(event.currentTarget).hasClass('Player1') || (event.currentTarget).hasClass('Empty')) {
+            if(!$(event.currentTarget).hasClass('Player1') || $(event.currentTarget).hasClass('Empty')) {
             player++;
             $(event.currentTarget).addClass('Player2');
             winCheck();
             }
         } else {
-            if (!$(event.currentTarget).hasClass('Player2') || (event.currentTarget).hasClass('Empty')) {
+            if (!$(event.currentTarget).hasClass('Player2') || $(event.currentTarget).hasClass('Empty')) {
             player++;
             $(event.currentTarget).addClass('Player1');
             winCheck();
