@@ -1,0 +1,53 @@
+body {
+    max-width: 1000px;
+    margin: auto;
+    background: #f5f37d;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bellota', cursive;
+    text-emphasis: bold;
+    font-size: 300%;
+    color: #a33724;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+p {
+    font-family: 'Indie Flower', cursive;
+    color: #f58f7d;
+}
+
+table, th, td {
+    border: 1px solid black;
+    color: black
+}
+table {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+}
+td {
+    height: 33.3%;
+    width: 33.3%
+}
+
+#Reset {
+    font-family: 'Bellota', cursive;
+}
+
+.Empty {
+    background: #f7b0a3;
+}
+
+.Player1 {
+    background-image: url(images/toe.jpg);
+}
+
+.Player2 {
+    background-image: url(images/tack.jpg)
+}
